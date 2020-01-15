@@ -1,11 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Pdf from './Pdf.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div>
+        <h1 style={{marginTop: '40px'}}>我是头部</h1>
+      </div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +22,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+     <div>
+       <Pdf></Pdf>
+     </div>
     </div>
   );
 }
